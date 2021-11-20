@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 375px){
 	.col-sm-3{
 		width: 25%;
 	}
@@ -253,12 +253,18 @@ h1,h2,h3,h4,h5,h6,p{
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media screen and (max-width: 540px){
+    .content .pic9{
+        width: 103%;
+    }
+    
+}
 
 .content .top{
     width: 42px;
     height: 62px;
-    left: 1300px;
-    top: 600px;
+    right: 60px;
+    bottom: 40px;
     background-image: url(../pic/top.png);
     display: inline-block;
     vertical-align: top;
@@ -270,7 +276,9 @@ h1,h2,h3,h4,h5,h6,p{
     text-indent: 100%;
     overflow: hidden;
     z-index: 350;
+    
 }
+
 
 @media screen and (max-width: 900px){
     .content .top{
@@ -293,7 +301,12 @@ h1,h2,h3,h4,h5,h6,p{
         width: 455px; 
     }
 }
-
+@media screen and (max-width: 540px){
+    .content .quickbtn {
+        height: 100%;
+        width: 386px; 
+    }
+}
 
 
 .quickbtn .first {
@@ -317,6 +330,15 @@ h1,h2,h3,h4,h5,h6,p{
     .quickbtn .second {
         margin: auto;
         width: 520px;
+    }
+}@media screen and (max-width: 540px){
+    .quickbtn .first {
+        margin: auto;
+        width: 275px;
+    }
+    .quickbtn .second {
+        margin: auto;
+        width: 278px;
     }
 }
 
@@ -346,6 +368,7 @@ h1,h2,h3,h4,h5,h6,p{
         
     }
 }
+
 
 .quickbtn .b{
     font-weight: 900;
@@ -378,7 +401,16 @@ h1,h2,h3,h4,h5,h6,p{
         padding-right: 25px;
     }
 }
-
+@media screen and (max-width: 540px){
+    .content .intro{
+        margin: auto;
+        width: 350px;
+        height: 100%;
+        padding-bottom: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
 .content .title{
     font-size: 50px;
     font-weight: 900;
@@ -404,6 +436,20 @@ h1,h2,h3,h4,h5,h6,p{
     }
 
 }
+@media screen and (max-width: 540px){
+
+    .content .title{
+        font-size: 30px;
+        font-weight: 900;
+        font-family:"Gen Jyuu Gothic LP";
+        color: #000000;
+        text-shadow: rgb(34, 34, 34);
+        text-align: left;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+}
 .content .image{
     width: 790px;
     height: 421px;
@@ -417,6 +463,12 @@ h1,h2,h3,h4,h5,h6,p{
     .content .image{
         width: auto;
 		max-height: 250px;
+}
+@media screen and (max-width: 540px){
+
+    .content .image{
+        width: auto;
+		max-height: 160px;
 }
 
 }
@@ -445,6 +497,21 @@ h1,h2,h3,h4,h5,h6,p{
         text-align: justify;
         padding-top: 20px;
         padding-bottom: 60px;
+        
+    }
+}
+@media screen and (max-width: 540px){
+
+    .content .text{
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.5;
+        letter-spacing: 1.2px;
+        font-family: "Gen Jyuu Gothic LP";
+        color: #000000;
+        text-align: justify;
+        padding-top: 20px;
+        padding-bottom: 40px;
         
     }
 }
@@ -568,7 +635,10 @@ h1,h2,h3,h4,h5,h6,p{
 
 }
 @media screen and (max-width: 1042px){
-	.footer .title{
+	.footer .bttitle{
         margin-top: 165px;
     }
 }
+
+
+

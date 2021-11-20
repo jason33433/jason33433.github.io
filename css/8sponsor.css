@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 375px){
 	.col-sm-3{
 		width: 25%;
 	}
@@ -248,8 +248,8 @@ h1,h2,h3,h4,h5,h6,p{
 \*------------------------------------*/
 
 .content .pic9{
-    width: 100%;
-    height: 100%;
+    width: 101%;
+    height: 10%;
     margin-top: 111px;
     background-image: url(../pic/all.jpg);
     background-attachment: fixed;
@@ -265,6 +265,12 @@ h1,h2,h3,h4,h5,h6,p{
 	text-align: center;
     padding-top: 54px;
 	margin-bottom: 90px;
+}
+@media screen and (max-width: 540px){
+    .content .title{
+        margin-bottom: 20px;
+    
+    }
 }
 
 .content .spo{
@@ -282,15 +288,33 @@ h1,h2,h3,h4,h5,h6,p{
         height: 900px;
         margin: auto;
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 80px;
+    
+    }
+}
+@media screen and (max-width: 540px){
+    .content .spo{
+        width: 375px;
+        height: 900px;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 80px;
     
     }
 }
 
 .content .intro{
-    width: 214px;
+    width: 196px;
     margin: auto;
+	margin-bottom: 30px;
 }
+@media screen and (max-width: 900px){
+    .content .intro{
+        margin-bottom: 40px;
+    
+    }
+}
+
 
 .content .logo{
     width:196px;
@@ -307,7 +331,7 @@ h1,h2,h3,h4,h5,h6,p{
 .content .intro .stitle{
     font-weight: 400;
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 12px;
     margin: auto;
     text-align: center;
     text-decoration: none;
@@ -316,6 +340,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-weight: bold;
 	font-family: "Gen Jyuu Gothic LP";
     color: #C5E0F5;
+	
 }
 
 
@@ -328,7 +353,7 @@ h1,h2,h3,h4,h5,h6,p{
 \*------------------------------------*/
 
 .footer .pic10{
-    width: 100%;
+    width: 101%;
     height: 410px;
     margin-top: -20px;
     background-image: url(../pic/footre-bgp.png);

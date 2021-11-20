@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 375px){
 	.col-sm-3{
 		width: 25%;
 	}
@@ -243,7 +243,7 @@ h1,h2,h3,h4,h5,h6,p{
 \*------------------------------------*/
 
 .content .pic9{
-    width: 100%;
+    width: 101%;
     /*height: 100%;*/
     margin-top: 111px;
     background-image: url(../pic/all.jpg);
@@ -266,6 +266,13 @@ h1,h2,h3,h4,h5,h6,p{
 	}
 }
 
+@media screen and (max-width: 540px){
+	.content .intro{
+		width: 350px;
+		margin: auto;
+	}
+}
+
 .content .text{
     font-size: 28px;
     font-weight: 900;
@@ -280,6 +287,19 @@ h1,h2,h3,h4,h5,h6,p{
 @media screen and (max-width: 768px){
 	.content .text{
 		font-size: 20px;
+		font-weight: 900;
+		line-height: 1.5;
+		letter-spacing: 1px;
+		font-family: "Gen Jyuu Gothic LP";
+		color: #000000;
+		text-align: left;
+		padding-top: 80px;
+	}
+}
+
+@media screen and (max-width: 540px){
+	.content .text{
+		font-size: 18px;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 1px;
@@ -311,6 +331,18 @@ h1,h2,h3,h4,h5,h6,p{
 		padding-top: 10px;
 	}
 }
+@media screen and (max-width: 540px){
+	.content .annotation{
+		font-size: 14px;
+		line-height: 1.5;
+		letter-spacing: 1px;
+		font-family: "Gen Jyuu Gothic LP";
+		color: #000000;
+		text-align: left;
+		padding-top: 10px;
+	}
+}
+
 
 .content .image{
     width: 588px;
@@ -331,6 +363,13 @@ h1,h2,h3,h4,h5,h6,p{
 	}	
 }
 
+@media screen and (max-width: 540px){
+	.content .image{
+		width: auto;
+		max-height: 225px;
+	}	
+}
+
 .content .table{
     width: 585px;
     height: 479px;
@@ -346,6 +385,17 @@ h1,h2,h3,h4,h5,h6,p{
 	.content .table{
 		width: auto;
 		max-height: 360px;
+		margin-top: 80px;
+		margin-bottom: 120px; 
+	}
+}
+
+@media screen and (max-width: 7540px){
+	.content .table{
+		width: auto;
+		max-height: 270px;
+		margin-top: 60px;
+		margin-bottom: 100px; 
 	}
 }
 

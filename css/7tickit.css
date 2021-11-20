@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 375px){
 	.col-sm-3{
 		width: 25%;
 	}
@@ -244,7 +244,7 @@ h1,h2,h3,h4,h5,h6,p{
 \*------------------------------------*/
 
 .content .picb{
-    width: 100%;
+    width: 101%;
     height: 100%;
     margin-top: 111px;
     background-image: url(../pic/bluebgp.jpg);
@@ -261,6 +261,12 @@ h1,h2,h3,h4,h5,h6,p{
 @media screen and (max-width: 960px){
     .content .tickit{
         width: 455px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 540px){
+    .content .tickit{
+        width: 375px;
         margin: auto;
     }
 }
@@ -284,6 +290,15 @@ h1,h2,h3,h4,h5,h6,p{
         padding-bottom: 50px;
     }
 }
+@media screen and (max-width: 540px){
+    .content .intro{
+        width: 370px;
+        height: 100%;
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+}
 
 .content .title{
     font-weight: 900;
@@ -303,6 +318,12 @@ h1,h2,h3,h4,h5,h6,p{
     }
 }
 
+@media screen and (max-width: 540px){
+    .content .title{
+        font-size: 20px;
+        margin: auto;
+    }
+}
 .content .image{
     width: 950px;
     height: 187px;
@@ -319,7 +340,13 @@ h1,h2,h3,h4,h5,h6,p{
         margin: auto;
     }
 }
-
+@media screen and (max-width: 540px){
+    .content .image{
+        width: auto;
+		max-height: 65px;
+        margin: auto;
+    }
+}
 .content .link{
     width: 134px;
     height: 100%;

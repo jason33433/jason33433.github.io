@@ -245,7 +245,7 @@ h1,h2,h3,h4,h5,h6,p{
 \*------------------------------------*/
 
 .content .pic9{
-    width: 100%;
+    width: 101%;
     /*height: 100%;*/
     margin-top: 111px;
     background-image: url(../pic/all.jpg);
@@ -396,7 +396,7 @@ input:-webkit-autofill:active  {
 \*------------------------------------*/
 
 .footer .pic10{
-    width: 100%;
+    width: 101%;
     height: 410px;
     margin-top: -20px;
     background-image: url(../pic/footre-bgp.png);

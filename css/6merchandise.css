@@ -246,7 +246,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .content .picb{
     background-image: url(../pic/bluebgp.jpg);
-    width: 100%;
+    width: 101%;
     height: 100%;
     margin-top: 111px;
     padding-top: 50px;
@@ -263,12 +263,23 @@ h1,h2,h3,h4,h5,h6,p{
     margin: auto;
 }
 
+@media screen and (max-width: 540px) {
+	.content .buy{
+        width: 370px;
+    }
+}
+
 .content .intro{
     width: 500px;
     height: 250px;
     margin: auto;
     padding-top: 100px;
     margin-bottom: 100px;
+}
+@media screen and (max-width: 540px) {
+	.content .intro{
+        width: 350px;
+    }
 }
 
 .content .image{
@@ -279,7 +290,13 @@ h1,h2,h3,h4,h5,h6,p{
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 30px;
-    
+}
+
+@media screen and (max-width: 540px) {
+	.content .image{
+        width: auto;
+    	height: 170px;
+    }
 }
 
 .content .intro .title{
@@ -297,7 +314,7 @@ h1,h2,h3,h4,h5,h6,p{
 \*------------------------------------*/
 
 .footer .pic10{
-    width: 100%;
+    width: 101%;
     height: 410px;
     margin-top: -20px;
     background-image: url(../pic/footre-bgp.png);
